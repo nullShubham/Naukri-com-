@@ -27,4 +27,4 @@ npm run dev
 - Its my choice , So don't Judge me.
 - If u want u can change them ❤️🙌
 
-<div style="cursor:pointer; font-size:20px; text-align: center;">Thank You</div>
+<div style="width:100%; cursor:pointer; font-size:20px; text-align: center;">Thank You</div>
