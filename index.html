@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="bg-white" lang="en">
+<html class="overflow-x-hidden" lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -29,13 +29,24 @@
                     </svg>
                 </div>
                 <ul tabindex="0"
-                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    class="menu menu-sm dropdown-content bg-white text-black rounded-box z-[1] mt-3 w-52 p-2 shadow">
 
                     <li>
-                        <a>Parent</a>
+                        <a>Servies</a>
                         <ul class="p-2">
-                            <li><a>Submenu 1</a></li>
-                            <li><a>Submenu 2</a></li>
+                            <li><a>Unicorn</a></li>
+                            <li><a>MNC</a></li>
+                            <li><a>Startup</a></li>
+                            <li><a>Product Based</a></li>
+                            <li><a>Internet</a></li>
+                            <li><a>Text resume</a></li>
+                            <li><a>Visual resume</a></li>
+                            <li><a>Resume critique</a></li>
+                            <li><a>Resume display</a></li>
+                            <li><a>Job search booster</a></li>
+                            <li><a>Buy online</a></li>
+                            <li><a> Naukri Hiring Suite </a></li>
+                            <li><a>Employer Login</a></li>
                         </ul>
                     </li>
 
@@ -46,40 +57,53 @@
             </a>
         </div>
         <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
+            <ul class="menu menu-horizontal px-1 ">
 
                 <li>
-                    <details>
+                    <details class="text-black">
                         <summary>Jobs</summary>
                         <ul class="p-2 border bg-white w-fit">
-                            <li class="w-fit"><a>Submenu 1</a></li>
-                            <li class="w-fit"><a>Submenu 2</a></li>
+                            <li class="w-fit"><a>IT jobs</a></li>
+                            <li class="w-fit"><a>HR jobs</a></li>
+                            <li class="w-fit"><a> Engineering jobs</a></li>
+                            <li class="w-fit"><a> Sales jobs</a></li>
+                            <li class="w-fit"><a>Marketing jobs</a></li>
+                            <li class="w-fit"><a>Data Science jobs</a></li>
                         </ul>
                     </details>
                 </li>
 
                 <li>
                     <details>
-                        <summary>Companies</summary>
-                        <ul class="p-2 bg-white border">
-                            <li><a>Submenu 1</a></li>
-                            <li><a>Submenu 2</a></li>
+                        <summary class="text-black">Companies</summary>
+                        <ul class="p-2 bg-white border text-black">
+
+                            <li><a>Unicorn</a></li>
+                            <li><a>MNC</a></li>
+                            <li><a>Startup</a></li>
+                            <li><a>Product Based</a></li>
+                            <li><a>Internet</a></li>
+
                         </ul>
                     </details>
                 </li>
                 <li>
-                    <details>
+                    <details class="text-black">
                         <summary>Services</summary>
                         <ul class="border bg-white p-2">
-                            <li><a>Submenu 1</a></li>
-                            <li><a>Submenu 2</a></li>
+                            <li><a>Text resume</a></li>
+                            <li><a>Visual resume</a></li>
+                            <li><a>Resume critique</a></li>
+                            <li><a>Resume display</a></li>
+                            <li><a>Job search booster</a></li>
+
                         </ul>
                     </details>
                 </li>
 
             </ul>
         </div>
-        <div class="navbar-end">
+        <div class="navbar-end hidden sm:flex">
             <button class="btn btn-outline rounded-full px-7 btn-primary">Login</button>
             <button class="btn ml-2 text-white btn-error font-normal rounded-full px-5">Register</button>
         </div>
@@ -91,8 +115,9 @@
                     <details>
                         <summary>For empployers</summary>
                         <ul class="border bg-white p-2">
-                            <li><a>Submenu 1</a></li>
-                            <li><a>Submenu 2</a></li>
+                            <li><a>Buy online</a></li>
+                            <li><a> Naukri Hiring Suite </a></li>
+                            <li><a>Employer Login</a></li>
                         </ul>
                     </details>
                 </li>
@@ -105,31 +130,142 @@
     <main class="h-full py-20 w-full">
 
         <div class=" w-full h-full flex flex-col gap-6 items-center">
-            <h1 class="text-4xl text-black font-extrabold">Find your dream job now</h1>
-            <h3 class="text-black text-lg">5 lakh+ jobs for you to explore</h3>
+            <h1 class="sm:text-4xl text-2xl text-black font-extrabold">Find your dream job now</h1>
+            <h3 class="text-black text-base sm:text-lg">5 lakh+ jobs for you to explore</h3>
         </div>
         <div class=" mt-10 flex justify-center ">
             <div
-                class="flex items-center rounded-full overflow-hidden px-3 sm:px-5 py-3 w-fit justify-center bg-[#FFFFFF] shadow-md sm:gap-5">
+                class="flex items-center rounded-full overflow-hidden px-3 sm:px-2 md:px-5 py-3 w-fit justify-center bg-[#FFFFFF] shadow-md sm:gap-2">
                 <Label for="Search"><i class="cursor-pointer fa-solid fa-magnifying-glass"></i></Label>
                 <div><input id="Search" type="text" placeholder="Enter Skills / designation"
                         class="input bg-white w-full max-w-xs" />
                 </div>
-                <div><select class="select bg-transparent text-black w-full max-w-xs">
+                <div><select class="select bg-transparent text-black w-full max-w-xs hidden sm:block">
                         <option selected>Select Experience</option>
                         <option>Fresher</option>
-                        <option>Js</option>
-                        <option>React</option>
+                        <option>1 year</option>
+                        <option>2 year</option>
+                        <option>3 year</option>
+                        <option>4 year</option>
+                        <option>5 year</option>
                     </select></div>
 
-                <div><input type="text" placeholder="Enter Location" class="input bg-white w-full max-w-xs" /></div>
+                <div><input type="text" placeholder="Enter Location"
+                        class="   hidden md:block input bg-white w-full max-w-xs" /></div>
                 <div><button class="btn btn-primary text-white rounded-full px-6">Search</button></div>
 
             </div>
         </div>
 
         <section id="SmallCards" class="w-full flex-wrap items-center justify-center px-8 sm:px-20 gap-10 mt-20 flex">
-
+            <div style="transition: all ease 0.10s;"
+                class=" hover:shadow-md text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
+                <div class=" card-body p-0 w-[140px]">
+                    <div class=" py-7  px-3 flex items-center justify-center card-title">
+                        <div class="flex items-center"><i class=" text-sm fa-solid fa-house"></i></div>
+                        <div class="flex items-center tooltip" data-tip="Remote">
+                            <h4 class="text-base">Remote</h4>
+                        </div>
+                        <div class="flex items-center">&gt;</div>
+                    </div>
+                </div>
+            </div>
+            <div style="transition: all ease 0.10s;"
+                class=" hover:shadow-md text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
+                <div class=" card-body p-0 w-[140px] ">
+                    <div class=" py-7  px-3 flex justify-center items-center  card-title">
+                        <div class="flex items-center"><i class=" text-sm fa-solid fa-city"></i></div>
+                        <div class="flex items-center tooltip" data-tip="MNC">
+                            <h4 class="text-base">MNC</h4>
+                        </div>
+                        <div class="flex items-center">&gt;</div>
+                    </div>
+                </div>
+            </div>
+            <div style="transition: all ease 0.10s;"
+                class=" hover:shadow-md text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
+                <div class=" card-body p-0 w-[140px] ">
+                    <div class=" py-7  px-3 flex justify-center items-center  card-title">
+                        <div class="flex items-center"><i class=" text-sm fa-brands fa-adversal"></i></div>
+                        <div class="flex items-center tooltip" data-tip="Sales  ">
+                            <h4 class="text-base">Sales</h4>
+                        </div>
+                        <div class="flex items-center">&gt;</div>
+                    </div>
+                </div>
+            </div>
+            <div style="transition: all ease 0.10s;"
+                class=" hover:shadow-md text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
+                <div class=" card-body p-0 w-[160px] ">
+                    <div class=" py-7  px-3 flex justify-center items-center  card-title">
+                        <div class="flex items-center"><i class=" text-sm fa-regular fa-circle-check"></i></div>
+                        <div class="flex items-center tooltip" data-tip="Project Mgmt  ">
+                            <h4 class="text-base">Project Mg.</h4>
+                        </div>
+                        <div class="flex items-center">&gt;</div>
+                    </div>
+                </div>
+            </div>
+            <div style="transition: all ease 0.10s;"
+                class=" hover:shadow-md text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
+                <div class=" card-body p-0 w-[140px] ">
+                    <div class=" py-7  px-3 flex justify-center items-center  card-title">
+                        <div class="flex items-center"><i class=" text-sm fa-solid fa-rocket"></i></div>
+                        <div class="flex items-center tooltip" data-tip="Startup">
+                            <h4 class="text-base">Startup</h4>
+                        </div>
+                        <div class="flex items-center">&gt;</div>
+                    </div>
+                </div>
+            </div>
+            <div style="transition: all ease 0.10s;"
+                class=" hover:shadow-md text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
+                <div class=" card-body p-0 w-[140px] ">
+                    <div class=" py-7  px-3 flex justify-center items-center  card-title">
+                        <div class="flex items-center"><i class=" text-sm fa-solid fa-certificate"></i></div>
+                        <div class="flex items-center tooltip" data-tip="Internship">
+                            <h4 class="text-base">Internship</h4>
+                        </div>
+                        <div class="flex items-center">&gt;</div>
+                    </div>
+                </div>
+            </div>
+            <div style="transition: all ease 0.10s;"
+                class=" hover:shadow-md text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
+                <div class=" card-body p-0 w-[140px] ">
+                    <div class=" py-7  px-3 flex justify-center items-center  card-title">
+                        <div class="flex items-center"><i class=" text-sm fa-solid fa-chart-simple"></i></div>
+                        <div class="flex items-center tooltip" data-tip="Analytics">
+                            <h4 class="text-base">Analytics</h4>
+                        </div>
+                        <div class="flex items-center">&gt;</div>
+                    </div>
+                </div>
+            </div>
+            <div style="transition: all ease 0.10s;"
+                class=" hover:shadow-md text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
+                <div class=" card-body p-0 w-[160px] ">
+                    <div class=" py-7  px-3 flex justify-center items-center  card-title">
+                        <div class="flex items-center"><i class=" text-sm fa-solid fa-chart-line"></i></div>
+                        <div class="flex items-center tooltip" data-tip="Data Science">
+                            <h4 class="text-base">Data Sci..</h4>
+                        </div>
+                        <div class="flex items-center">&gt;</div>
+                    </div>
+                </div>
+            </div>
+            <div style="transition: all ease 0.10s;"
+                class=" hover:shadow-md text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
+                <div class=" card-body p-0 w-[170px] ">
+                    <div class=" py-7  px-3 flex justify-center items-center  card-title">
+                        <div class="flex items-center"><i class=" text-sm fa-solid fa-laptop-code"></i></div>
+                        <div class="flex items-center tooltip" data-tip="Software & IT">
+                            <h4 class="text-base">Software &..</h4>
+                        </div>
+                        <div class="flex items-center">&gt;</div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section class="text-black mt-12 px-5 sm:px-28">
@@ -139,7 +275,160 @@
             <div class="mt-10 flex justify-center ">
                 <div class="carousel  border py-10  rounded-box">
                     <div id="companyList" class="flex   px-10 gap-10 carousel-item">
-
+                        <div style="transition: all ease 0.10s;"
+                            class=" hover:shadow-md  text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
+                            <div class=" card-body p-0 ">
+                                <div class=" py-6 px-2 card-title flex flex-col">
+                                    <div class="w-full items-center gap-2 flex">
+                                        <h1 class="text-base font-medium">MNCs</h1>
+                                        <div class="text-xl font-medium">&gt;</div>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs">1.9k+ are actively hiring</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="transition: all ease 0.10s;"
+                            class=" hover:shadow-md  text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
+                            <div class=" card-body p-0 ">
+                                <div class=" py-6 px-2 card-title flex flex-col">
+                                    <div class="w-full items-center gap-2 flex">
+                                        <h1 class="text-base font-medium">Edtech</h1>
+                                        <div class="text-xl font-medium">&gt;</div>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs">158 are actively hiring</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="transition: all ease 0.10s;"
+                            class=" hover:shadow-md  text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
+                            <div class=" card-body p-0 ">
+                                <div class=" py-6 px-2 card-title flex flex-col">
+                                    <div class="w-full items-center gap-2 flex">
+                                        <h1 class="text-base font-medium">Healtcare</h1>
+                                        <div class="text-xl font-medium">&gt;</div>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs">554 are actively hiring</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="transition: all ease 0.10s;"
+                            class=" hover:shadow-md  text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
+                            <div class=" card-body p-0 ">
+                                <div class=" py-6 px-2 card-title flex flex-col">
+                                    <div class="w-full items-center gap-2 flex">
+                                        <h1 class="text-base font-medium">Unicrone</h1>
+                                        <div class="text-xl font-medium">&gt;</div>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs">93 are actively hiring</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="transition: all ease 0.10s;"
+                            class=" hover:shadow-md  text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
+                            <div class=" card-body p-0 ">
+                                <div class=" py-6 px-2 card-title flex flex-col">
+                                    <div class="w-full items-center gap-2 flex">
+                                        <h1 class="text-base font-medium">Internet</h1>
+                                        <div class="text-xl font-medium">&gt;</div>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs">197 are actively hiring</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="transition: all ease 0.10s;"
+                            class=" hover:shadow-md  text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
+                            <div class=" card-body p-0 ">
+                                <div class=" py-6 px-2 card-title flex flex-col">
+                                    <div class="w-full items-center gap-2 flex">
+                                        <h1 class="text-base font-medium">B2C</h1>
+                                        <div class="text-xl font-medium">&gt;</div>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs">433 are actively hiring</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="transition: all ease 0.10s;"
+                            class=" hover:shadow-md  text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
+                            <div class=" card-body p-0 ">
+                                <div class=" py-6 px-2 card-title flex flex-col">
+                                    <div class="w-full items-center gap-2 flex">
+                                        <h1 class="text-base font-medium">Manufacturing</h1>
+                                        <div class="text-xl font-medium">&gt;</div>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs">433 are actively hiring</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="transition: all ease 0.10s;"
+                            class=" hover:shadow-md  text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
+                            <div class=" card-body p-0 ">
+                                <div class=" py-6 px-2 card-title flex flex-col">
+                                    <div class="w-full items-center gap-2 flex">
+                                        <h1 class="text-base font-medium">Fortune 500</h1>
+                                        <div class="text-xl font-medium">&gt;</div>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs">423 are actively hiring</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="transition: all ease 0.10s;"
+                            class=" hover:shadow-md  text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
+                            <div class=" card-body p-0 ">
+                                <div class=" py-6 px-2 card-title flex flex-col">
+                                    <div class="w-full items-center gap-2 flex">
+                                        <h1 class="text-base font-medium">Prodcut</h1>
+                                        <div class="text-xl font-medium">&gt;</div>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs">145 are actively hiring</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="transition: all ease 0.10s;"
+                            class=" hover:shadow-md  text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
+                            <div class=" card-body p-0 ">
+                                <div class=" py-6 px-2 card-title flex flex-col">
+                                    <div class="w-full items-center gap-2 flex">
+                                        <h1 class="text-base font-medium">Hospitality</h1>
+                                        <div class="text-xl font-medium">&gt;</div>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs">234 are actively hiring</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="transition: all ease 0.10s;"
+                            class=" hover:shadow-md  text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
+                            <div class=" card-body p-0 ">
+                                <div class=" py-6 px-2 card-title flex flex-col">
+                                    <div class="w-full items-center gap-2 flex">
+                                        <h1 class="text-base font-medium">Startups</h1>
+                                        <div class="text-xl font-medium">&gt;</div>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs">4134 are actively hiring</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -152,6 +441,215 @@
             <div class="mt-10 flex  justify-center">
                 <div class="carousel  border py-10  rounded-box">
                     <div id="JobList" class="flex  px-10 gap-10  carousel-item">
+                        <div class="card cursor-pointer border w-56 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-full object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">FIS</h2>
+                                <p class="bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input type="radio"
+                                        name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+ reviews
+                                </p>
+                                <div class="card-actions">
+                                    <p class="text-sm">FIS is hiring 3 to 10yrs exp. in C++ & Mumps developer.</p>
+                                    <div class="w-full flex items-center justify-center">
+
+                                        <button class="btn btn-outline btn-primary">View Job</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor-pointer border w-56 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-full object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">FIS</h2>
+                                <p class="bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input type="radio"
+                                        name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+ reviews
+                                </p>
+                                <div class="card-actions">
+                                    <p class="text-sm">FIS is hiring 3 to 10yrs exp. in C++ & Mumps developer.</p>
+                                    <div class="w-full flex items-center justify-center">
+
+                                        <button class="btn btn-outline btn-primary">View Job</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor-pointer border w-56 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-full object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">FIS</h2>
+                                <p class="bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input type="radio"
+                                        name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+ reviews
+                                </p>
+                                <div class="card-actions">
+                                    <p class="text-sm">FIS is hiring 3 to 10yrs exp. in C++ & Mumps developer.</p>
+                                    <div class="w-full flex items-center justify-center">
+
+                                        <button class="btn btn-outline btn-primary">View Job</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor-pointer border w-56 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-full object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">FIS</h2>
+                                <p class="bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input type="radio"
+                                        name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+ reviews
+                                </p>
+                                <div class="card-actions">
+                                    <p class="text-sm">FIS is hiring 3 to 10yrs exp. in C++ & Mumps developer.</p>
+                                    <div class="w-full flex items-center justify-center">
+
+                                        <button class="btn btn-outline btn-primary">View Job</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor-pointer border w-56 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-full object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">FIS</h2>
+                                <p class="bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input type="radio"
+                                        name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+ reviews
+                                </p>
+                                <div class="card-actions">
+                                    <p class="text-sm">FIS is hiring 3 to 10yrs exp. in C++ & Mumps developer.</p>
+                                    <div class="w-full flex items-center justify-center">
+
+                                        <button class="btn btn-outline btn-primary">View Job</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor-pointer border w-56 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-full object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">FIS</h2>
+                                <p class="bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input type="radio"
+                                        name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+ reviews
+                                </p>
+                                <div class="card-actions">
+                                    <p class="text-sm">FIS is hiring 3 to 10yrs exp. in C++ & Mumps developer.</p>
+                                    <div class="w-full flex items-center justify-center">
+
+                                        <button class="btn btn-outline btn-primary">View Job</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor-pointer border w-56 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-full object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">FIS</h2>
+                                <p class="bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input type="radio"
+                                        name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+ reviews
+                                </p>
+                                <div class="card-actions">
+                                    <p class="text-sm">FIS is hiring 3 to 10yrs exp. in C++ & Mumps developer.</p>
+                                    <div class="w-full flex items-center justify-center">
+
+                                        <button class="btn btn-outline btn-primary">View Job</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor-pointer border w-56 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-full object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">FIS</h2>
+                                <p class="bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input type="radio"
+                                        name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+ reviews
+                                </p>
+                                <div class="card-actions">
+                                    <p class="text-sm">FIS is hiring 3 to 10yrs exp. in C++ & Mumps developer.</p>
+                                    <div class="w-full flex items-center justify-center">
+
+                                        <button class="btn btn-outline btn-primary">View Job</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor-pointer border w-56 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-full object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">FIS</h2>
+                                <p class="bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input type="radio"
+                                        name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+ reviews
+                                </p>
+                                <div class="card-actions">
+                                    <p class="text-sm">FIS is hiring 3 to 10yrs exp. in C++ & Mumps developer.</p>
+                                    <div class="w-full flex items-center justify-center">
+
+                                        <button class="btn btn-outline btn-primary">View Job</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor-pointer border w-56 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-full object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">FIS</h2>
+                                <p class="bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input type="radio"
+                                        name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+ reviews
+                                </p>
+                                <div class="card-actions">
+                                    <p class="text-sm">FIS is hiring 3 to 10yrs exp. in C++ & Mumps developer.</p>
+                                    <div class="w-full flex items-center justify-center">
+
+                                        <button class="btn btn-outline btn-primary">View Job</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor-pointer border w-56 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-full object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">FIS</h2>
+                                <p class="bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input type="radio"
+                                        name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+ reviews
+                                </p>
+                                <div class="card-actions">
+                                    <p class="text-sm">FIS is hiring 3 to 10yrs exp. in C++ & Mumps developer.</p>
+                                    <div class="w-full flex items-center justify-center">
+
+                                        <button class="btn btn-outline btn-primary">View Job</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
@@ -165,29 +663,277 @@
             <div class="hidden lg:grid place-items-center mt-6">
                 <div class="w-fit grid grid-cols-8 gap-x-2">
                     <div class="cursor-pointer bg-black text-white px-5 badge">All</div>
-                    <div class="cursor-pointer bg-transparent px-5 badge">IT Services</div>
-                    <div class="cursor-pointer bg-transparent px-5 badge">IT Services</div>
-                    <div class="cursor-pointer bg-transparent px-5 badge">IT Services</div>
-                    <div class="cursor-pointer bg-transparent px-5 badge">IT Services</div>
-                    <div class="cursor-pointer bg-transparent px-5 badge">IT Services</div>
-                    <div class="cursor-pointer bg-transparent px-5 badge">IT Services</div>
-                    <div class="cursor-pointer bg-transparent px-5 badge">IT Services</div>
+                    <div class="cursor-pointer bg-transparent  text-xs badge">IT Services</div>
+                    <div class="cursor-pointer bg-transparent  text-xs badge">IT Services</div>
+                    <div class="cursor-pointer bg-transparent  text-xs badge">IT Services</div>
+                    <div class="cursor-pointer bg-transparent  text-xs badge">IT Services</div>
+                    <div class="cursor-pointer bg-transparent  text-xs badge">IT Services</div>
+                    <div class="cursor-pointer bg-transparent  text-xs badge">IT Services</div>
+                    <div class="cursor-pointer bg-transparent  text-xs badge">IT Services</div>
                 </div>
             </div>
             <div class="mt-10 flex  justify-center">
                 <div class="carousel  border py-10  rounded-box">
                     <div id="SponsoredComp" class="flex  px-10 gap-10  carousel-item">
+                        <div class="card cursor-pointer border w-72 h-72 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-20 object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center  text-center">
+                                <h2 class="text-base card-title">National Paytm Corporation</h2>
+                                <p class="rounded-lg bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input
+                                        type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+
+                                    reviews
+                                </p>
+                                <div class="card-actions mt-2">
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor-pointer border w-72 h-72 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-20 object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center  text-center">
+                                <h2 class="text-base card-title">National Paytm Corporation</h2>
+                                <p class="rounded-lg bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input
+                                        type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+
+                                    reviews
+                                </p>
+                                <div class="card-actions mt-2">
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor-pointer border w-72 h-72 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-20 object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center  text-center">
+                                <h2 class="text-base card-title">National Paytm Corporation</h2>
+                                <p class="rounded-lg bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input
+                                        type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+
+                                    reviews
+                                </p>
+                                <div class="card-actions mt-2">
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor-pointer border w-72 h-72 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-20 object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center  text-center">
+                                <h2 class="text-base card-title">National Paytm Corporation</h2>
+                                <p class="rounded-lg bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input
+                                        type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+
+                                    reviews
+                                </p>
+                                <div class="card-actions mt-2">
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor-pointer border w-72 h-72 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-20 object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center  text-center">
+                                <h2 class="text-base card-title">National Paytm Corporation</h2>
+                                <p class="rounded-lg bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input
+                                        type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+
+                                    reviews
+                                </p>
+                                <div class="card-actions mt-2">
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor-pointer border w-72 h-72 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-20 object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center  text-center">
+                                <h2 class="text-base card-title">National Paytm Corporation</h2>
+                                <p class="rounded-lg bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input
+                                        type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+
+                                    reviews
+                                </p>
+                                <div class="card-actions mt-2">
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor-pointer border w-72 h-72 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-20 object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center  text-center">
+                                <h2 class="text-base card-title">National Paytm Corporation</h2>
+                                <p class="rounded-lg bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input
+                                        type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+
+                                    reviews
+                                </p>
+                                <div class="card-actions mt-2">
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor-pointer border w-72 h-72 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-20 object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center  text-center">
+                                <h2 class="text-base card-title">National Paytm Corporation</h2>
+                                <p class="rounded-lg bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input
+                                        type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+
+                                    reviews
+                                </p>
+                                <div class="card-actions mt-2">
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor-pointer border w-72 h-72 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-20 object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center  text-center">
+                                <h2 class="text-base card-title">National Paytm Corporation</h2>
+                                <p class="rounded-lg bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input
+                                        type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+
+                                    reviews
+                                </p>
+                                <div class="card-actions mt-2">
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor-pointer border w-72 h-72 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-20 object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center  text-center">
+                                <h2 class="text-base card-title">National Paytm Corporation</h2>
+                                <p class="rounded-lg bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input
+                                        type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+
+                                    reviews
+                                </p>
+                                <div class="card-actions mt-2">
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor-pointer border w-72 h-72 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-20 object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center  text-center">
+                                <h2 class="text-base card-title">National Paytm Corporation</h2>
+                                <p class="rounded-lg bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input
+                                        type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+
+                                    reviews
+                                </p>
+                                <div class="card-actions mt-2">
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor-pointer border w-72 h-72 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-20 object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center  text-center">
+                                <h2 class="text-base card-title">National Paytm Corporation</h2>
+                                <p class="rounded-lg bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input
+                                        type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+
+                                    reviews
+                                </p>
+                                <div class="card-actions mt-2">
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor-pointer border w-72 h-72 hover:shadow-xl">
+                            <figure class="  px-2 pt-5">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                    alt="Company Icon" class="h-20 w-20 object-cover  rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center  text-center">
+                                <h2 class="text-base card-title">National Paytm Corporation</h2>
+                                <p class="rounded-lg bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input
+                                        type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+
+                                    reviews
+                                </p>
+                                <div class="card-actions mt-2">
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                    <div class="badge bg-transparent">B2C</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="footer border-t text-black p-10">
-        <aside>
+
+    <footer class="footer border-t text-black pl-2 sm:p-10 mt-10">
+        <aside class="pt-10">
             <a href="#"> <img src="https://static.naukimg.com/s/0/0/i/naukri-identity/naukri_gnb_logo.svg" alt="Logo">
             </a>
-            <p>
+            <p class="text-[10px] sm:text-sm">
                 ACME Industries Ltd.
                 <br />
                 Providing reliable tech since 1992
@@ -213,16 +959,17 @@
             <a class="link link-hover">Privacy policy</a>
             <a class="link link-hover">Cookie policy</a>
         </nav>
-        <form>
+        <form class="w-full">
             <h6 class="footer-title">Newsletter</h6>
-            <fieldset class="form-control w-80">
+            <fieldset class="form-control w-full">
                 <label for="username" class="label">
                     <span class="label-text">Enter your email address</span>
                 </label>
-                <div class="join">
+                <div class="join ">
                     <input id="username" type="text" placeholder="username@site.com"
-                        class="input input-bordered bg-transparent join-item" />
-                    <button class="btn btn-primary text-white join-item">Subscribe</button>
+                        class="w-24 sm:w-fit sm:placeholder:text-sm placeholder:text-[10px] input input-bordered bg-transparent join-item" />
+                    <button
+                        class="btn w-14  text-[10px] sm:text-sm sm:w-fit btn-primary text-white join-item">Subscribe</button>
                 </div>
             </fieldset>
         </form>
@@ -269,74 +1016,75 @@
         let companyList = document.querySelector("#companyList")
         let SponsoredComp = document.querySelector("#SponsoredComp")
         for (let i = 1; i <= 11; i++) {
-            SponsoredComp.innerHTML += `<div class="card cursor-pointer border w-72 h-72 hover:shadow-xl">
-                            <figure class="  px-2 pt-5">
-                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                                    alt="Company Icon" class="h-20 w-20 object-cover  rounded-xl" />
-                            </figure>
-                            <div class="card-body items-center  text-center">
-                                <h2 class="text-base card-title">National Paytm Corporation</h2>
-                                <p class="rounded-lg bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input
-                                        type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+
-                                    reviews
-                                </p>
-                                <div class="card-actions mt-2">
-                                    <div class="badge bg-transparent">B2C</div>
-                                    <div class="badge bg-transparent">B2C</div>
-                                    <div class="badge bg-transparent">B2C</div>
-                                    <div class="badge bg-transparent">B2C</div>
-                                </div>
-                            </div>
-                        </div>`
-            SmallCards.innerHTML += `<div style="transition: all ease 0.10s;"
-                class=" hover:shadow-md text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
-                <div class=" card-body p-0">
-                    <div class=" py-6 px-2 flex items-center  card-title">
-                        <div class="flex items-center"><i class=" text-sm fa-solid fa-house"></i></div>
-                        <div class="flex items-center">
-                            <h4 class="text-base">Remote</h4>
-                        </div>
-                        <div class="flex items-center">&gt;</div>
-                    </div>
-                </div>
-            </div>`
-            companyList.innerHTML += `<div style="transition: all ease 0.10s;"
-                            class=" hover:shadow-md  text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
-                            <div class=" card-body p-0 ">
-                                <div class=" py-6 px-2 card-title flex flex-col">
-                                    <div class="w-full items-center gap-2 flex">
-                                        <h1 class="text-base font-medium">MNCs</h1>
-                                        <div class="text-xl font-medium">&gt;</div>
-                                    </div>
-                                    <div>
-                                        <p class="text-xs">1.9k+ are actively hiring</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>`
+            /* SponsoredComp.innerHTML += `<div class="card cursor-pointer border w-72 h-72 hover:shadow-xl">
+                             <figure class="  px-2 pt-5">
+                                 <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                     alt="Company Icon" class="h-20 w-20 object-cover  rounded-xl" />
+                             </figure>
+                             <div class="card-body items-center  text-center">
+                                 <h2 class="text-base card-title">National Paytm Corporation</h2>
+                                 <p class="rounded-lg bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input
+                                         type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+
+                                     reviews
+                                 </p>
+                                 <div class="card-actions mt-2">
+                                     <div class="badge bg-transparent">B2C</div>
+                                     <div class="badge bg-transparent">B2C</div>
+                                     <div class="badge bg-transparent">B2C</div>
+                                     <div class="badge bg-transparent">B2C</div>
+                                 </div>
+                             </div>
+                         </div>`
+                         */
+            /* SmallCards.innerHTML += `<div style="transition: all ease 0.10s;"
+                 class=" hover:shadow-md text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
+                 <div class=" card-body p-0">
+                     <div class=" py-6 px-2 flex items-center  card-title">
+                         <div class="flex items-center"><i class=" text-sm fa-solid fa-house"></i></div>
+                         <div class="flex items-center">
+                             <h4 class="text-base">Remote</h4>
+                         </div>
+                         <div class="flex items-center">&gt;</div>
+                     </div>
+                 </div>
+             </div>`*/
+            /* companyList.innerHTML += `<div style="transition: all ease 0.10s;"
+                             class=" hover:shadow-md  text-black hover:shadow-gray-400 rounded-lg shadow cursor-pointer shadow-gray-500 overflow-hidden card w-fit">
+                             <div class=" card-body p-0 ">
+                                 <div class=" py-6 px-2 card-title flex flex-col">
+                                     <div class="w-full items-center gap-2 flex">
+                                         <h1 class="text-base font-medium">MNCs</h1>
+                                         <div class="text-xl font-medium">&gt;</div>
+                                     </div>
+                                     <div>
+                                         <p class="text-xs">1.9k+ are actively hiring</p>
+                                     </div>
+                                 </div>
+ 
+                             </div>
+                         </div>`*/
             if (i < 10) {
 
 
-                JobList.innerHTML += `<div class="card cursor-pointer border w-56 hover:shadow-xl">
-        <figure class="  px-2 pt-5">
-            <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                alt="Company Icon" class="h-20 w-full object-cover  rounded-xl" />
-        </figure>
-        <div class="card-body items-center text-center">
-            <h2 class="card-title">FIS</h2>
-            <p class="bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input type="radio"
-                    name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+ reviews
-            </p>
-            <div class="card-actions">
-                <p class="text-sm">FIS is hiring 3 to 10yrs exp. in C++ & Mumps developer.</p>
-                <div class="w-full flex items-center justify-center">
-
-                    <button class="btn btn-outline btn-primary">View Job</button>
-                </div>
-            </div>
-        </div>
-    </div>`
+                /* JobList.innerHTML += `<div class="card cursor-pointer border w-56 hover:shadow-xl">
+         <figure class="  px-2 pt-5">
+             <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                 alt="Company Icon" class="h-20 w-full object-cover  rounded-xl" />
+         </figure>
+         <div class="card-body items-center text-center">
+             <h2 class="card-title">FIS</h2>
+             <p class="bg-gray-300 px-2 py-1 mb-1 text-xs flex items-center"> <input type="radio"
+                     name="rating-2" class="mask mr-2 mask-star-2 bg-orange-400" />3.5K+ reviews
+             </p>
+             <div class="card-actions">
+                 <p class="text-sm">FIS is hiring 3 to 10yrs exp. in C++ & Mumps developer.</p>
+                 <div class="w-full flex items-center justify-center">
+ 
+                     <button class="btn btn-outline btn-primary">View Job</button>
+                 </div>
+             </div>
+         </div>
+     </div>`*/
             }
         }
     </script>
